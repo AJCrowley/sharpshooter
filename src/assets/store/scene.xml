@@ -1,0 +1,98 @@
+<scene title="TIMBR Mart Store" backdrop="background.png" minPower="0.4" maxPower="1" angleRange="55" numShots="6">
+	<hitBoxes>
+		<hitBox solid="true">
+			<vertex x="165" y="183" />
+			<vertex x="217" y="183" />
+			<vertex x="217" y="206" />
+			<vertex x="165" y="206" />
+			<behaviours>
+				<behaviour>
+					<puck modifier="percent" x="100" y="-90" />
+				</behaviour>
+			</behaviours>
+		</hitBox>
+		<hitBox solid="true">
+			<vertex x="217" y="183" />
+			<vertex x="217" y="206" />
+			<vertex x="250" y="189" />
+			<vertex x="250" y="166" />
+			<behaviours>
+				<behaviour>
+					<puck modifier="percent" x="-100" y="20" />
+				</behaviour>
+			</behaviours>
+		</hitBox>
+		<hitBox solid="true">
+			<vertex x="250" y="183" />
+			<vertex x="320" y="183" />
+			<vertex x="320" y="160" />
+			<vertex x="250" y="160" />
+			<behaviours>
+				<behaviour>
+					<puck modifier="percent" x="100" y="-90" />
+				</behaviour>
+			</behaviours>
+		</hitBox>
+	</hitBoxes>
+	<instructions background="instructions.png" x="110" y="129">
+		<images>
+			<image id="playButton">instructions_play.png</image>
+			<image id="playButtonDown">instructions_play_down.png</image>
+			<image id="content">store/instructions.png</image>
+		</images>
+		<headerText width="509" height="37" x="15" y="14" fontSize="18" colour="ffffff" bold="false">
+			<![CDATA[BONUS LEVEL: TIM-BR MART]]>
+		</headerText>
+		<bodyText width="509" height="169" x="15" y="52" fontSize="12" colour="ffffff" bold="false">
+			<![CDATA[]]>
+		</bodyText>
+		<content image="content" x="0" y="0" />
+		<button width="155" height="39" x="195" y="219" image="playButton" downState="playButtonDown" />
+	</instructions>
+	<scoreScreen>
+		<images>
+			<image id="bronze">medal_b.png</image>
+			<image id="bronzeOff">medal_b_off.png</image>
+			<image id="silver">medal_s.png</image>
+			<image id="silverOff">medal_s_off.png</image>
+			<image id="gold">medal_g.png</image>
+			<image id="goldOff">medal_g_off.png</image>
+			<image id="hammer">store/badge_hammer.png</image>
+			<image id="hammerOff">store/badge_hammer_off.png</image>
+			<image id="store">store/badge_store.png</image>
+			<image id="storeOff">store/badge_store_off.png</image>
+		</images>
+		<medals>
+			<medal id="bronze" points="1300" image="bronze" imageoff="bronzeOff" x="439" y="147" />
+			<medal id="silver" points="1500" image="silver" imageoff="silverOff" x="399" y="147" />
+			<medal id="gold" points="1800" image="gold" imageoff="goldOff" x="359" y="147" />
+		</medals>
+		<badges>
+			<badge id="all" image="store" imageoff="storeOff" x="394" y="211" />
+			<badge id="bonus" image="hammer" imageoff="hammerOff" x="434 " y="211" />		
+		</badges>
+	</scoreScreen>
+	<actors>
+		<actor id="clerk" file="clerk.xml" framerate="30" x="0" y="0" autoPerspective="false" scale="1" under="true" />
+		<actor id="counter" file="counter.xml" framerate="0" x="0" y="0" autoPerspective="false" scale="1" under="true" />
+		<actor id="putty" file="putty.xml" framerate="30" x="0" y="0" autoPerspective="false" scale="1" />
+		<actor id="railing" file="railing.xml" framerate="30" x="0" y="0" autoPerspective="false" scale="1" />
+		<actor id="paint" file="paint.xml" framerate="30" x="0" y="0" autoPerspective="false" scale="1" />
+		<actor id="insulation" file="insulation.xml" framerate="30" x="0" y="0" autoPerspective="false" scale="1" />
+		<actor id="lepage" file="lepage.xml" framerate="30" x="0" y="0" autoPerspective="false" scale="1" />
+		<puck file="../common/ball.xml" framerate="0" x="375" y="544" autoPerspective="true" scale="1" />
+		<player file="../common/player_street.xml" framerate="30" shotsound="shot" shotdelay="650" x="70" y="30" autoPerspective="false" scale="1" />
+		<reticle file="../common/reticle.xml" powerMeter="../common/reticle_power.png" framerate="0" x="315" y="518" centerX="49" centerY="42" autoPerspective="false" scale="1" />
+	</actors>
+	<sounds>
+		<sound id="ambiance" file="ambiance.mp3" loop="true" vol="1" bal="0" play="true" />
+		<sound id="shot" file="../common/shot.mp3" loop="false" vol="1" bal="0" />
+		<sound id="ext" file="ext.mp3" loop="false" vol="1" bal="0.3" />
+		<sound id="paint" file="paint.mp3" loop="false" vol="1" bal="-0.2" />
+		<sound id="insulation" file="insulation.mp3" loop="false" vol="1" bal="0.4" />
+		<sound id="lepage" file="lepage.mp3" loop="false" vol="1" bal="0.9" />
+		<sound id="putty" file="putty.mp3" loop="false" vol="1" bal="-0.2" />
+		<sound id="railing" file="railing.mp3" loop="false" vol="1" bal="-0.9" />
+		<sound id="window" file="window.mp3" loop="false" vol="1" bal="0.1" />
+	</sounds>
+</scene>

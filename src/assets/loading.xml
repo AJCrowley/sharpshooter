@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:cd02bccac8015209573c28915642b3b4$ -->
+<TextureAtlas imagePath="loading.png">
+    <SubTexture name="stateIdle_0001" x="2" y="2" width="144" height="87" frameX="-325" frameY="-256" frameWidth="794" frameHeight="597"/>
+    <SubTexture name="stateIdle_0002" x="2" y="269" width="144" height="87" frameX="-325" frameY="-256" frameWidth="794" frameHeight="597"/>
+    <SubTexture name="stateIdle_0003" x="2" y="180" width="144" height="87" frameX="-325" frameY="-256" frameWidth="794" frameHeight="597"/>
+    <SubTexture name="stateIdle_0004" x="2" y="91" width="144" height="87" frameX="-325" frameY="-256" frameWidth="794" frameHeight="597"/>
+</TextureAtlas>

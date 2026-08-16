@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:c9c974fe26d9c0f6d4ecc52dfe57face$ -->
+<TextureAtlas imagePath="manhole.png">
+	<hitAreas>
+		<hitArea>
+			<vertex x="90" y="360" />
+			<vertex x="90" y="340" />
+			<vertex x="145" y="340" />
+			<vertex x="145" y="360" />
+			<behaviours>
+				<behaviour>
+					<points>-100</points>
+					<puck modifier="percent" x="0" y="0" vanish="true" />
+				</behaviour>
+			</behaviours>
+		</hitArea>
+	</hitAreas>
+	<hitAreas>
+		<hitArea>
+			<vertex x="125" y="330" />
+			<vertex x="125" y="350" />
+			<vertex x="175" y="350" />
+			<vertex x="175" y="330" />
+			<behaviours>
+				<behaviour>
+					<puck modifier="percent" x="30" y="-30" />
+				</behaviour>
+			</behaviours>
+		</hitArea>
+	</hitAreas>
+    <SubTexture name="stateIdle_0001" x="2" y="2" width="134" height="46" frameX="-89" frameY="-321" frameWidth="760" frameHeight="600"/>
+</TextureAtlas>

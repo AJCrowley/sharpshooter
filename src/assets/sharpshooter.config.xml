@@ -1,0 +1,54 @@
+<config>
+	<debug miner="false" log="true" showHitAreas="false" forceSoftwareRendering="false" />
+	<starling antiAliasing="16" handleLostContext="true" />
+	<aim hrange="500" vrange="400" />
+	<loadingAnimation file="loading.xml" framerate="5" x="0" y="0" scale="1" loop="true" />
+	<exitButton x="648" y="9" image="score_locker.png" downState="score_locker_down.png" action="locker" />
+	<scoreboard image="scoreboard.png" x="20" y="470">
+		<scoreText width="159" height="50" x="10" y="34" fontSize="40" colour="f7931d" bold="true" />
+		<shotCounter image="shotcounter.png" x="144" y="85" width="26" fadeTime="0.3" />
+	</scoreboard>
+	<scoreScreen background="scorescreen.png" x="110" y="114" fadeTime="1">
+		<images>
+			<image id="replayButton">score_replay.png</image>
+			<image id="replayButtonDown">score_replay_down.png</image>
+			<image id="nextButton">score_next.png</image>
+			<image id="nextButtonDown">score_next_down.png</image>
+			<image id="nextButtonDisabled">score_next_disabled.png</image>
+			<image id="lockerButton">score_locker.png</image>
+			<image id="lockerButtonDown">score_locker_down.png</image>
+			<image id="bragButton">score_brag.png</image>
+			<image id="bragButtonDown">score_brag_down.png</image>
+		</images>
+		<headerText width="509" height="37" x="15" y="14" fontSize="18" colour="ffffff" bold="false">
+			<pass>LEVEL COMPLETE!</pass>
+			<fail>LEVEL INCOMPLETE! TRY AGAIN!</fail>
+			<complete>YOU FINISHED THE GAME</complete>
+		</headerText>
+		<scoreLabel width="230" height="14" x="58" y="98" fontSize="14" colour="969696" align="left" bold="false">
+			SCORE
+		</scoreLabel>
+		<medalLabel width="230" height="14" x="58" y="159" fontSize="14" colour="969696" align="left" bold="false">
+			MEDALS
+		</medalLabel>
+		<badgeLabel width="230" height="14" x="58" y="221" fontSize="14" colour="969696" align="left" bold="false">
+			BADGES
+		</badgeLabel>
+		<scoreText width="208" height="37" x="261" y="86" fontSize="26" colour="ffffff" align="right" bold="false" />
+		<buttons>
+			<button id="replay" width="176" height="35" x="90" y="274" image="replayButton" downState="replayButtonDown" action="replay" />
+			<button id="next" width="176" height="35" x="274" y="274" image="nextButton" downState="nextButtonDown" disabledState="nextButtonDisabled" action="next" />
+			<button id="locker" width="102" height="25" x="163" y="317" image="lockerButton" downState="lockerButtonDown" action="locker" />
+			<button id="brag" width="102" height="25" x="274" y="317" image="bragButton" downState="bragButtonDown" action="brag" />
+		</buttons>
+	</scoreScreen>
+	<scenes wipeColour="0xffffff" wipeTimeIn="0.4" wipeTimeOut="1" wipeEasing="linear" reverseAim="false" endShotWaitTime="3000" loop="false">
+		<scene file="basement/scene.xml" />
+		<scene file="streethockey/scene.xml" />
+		<scene file="communityrink/scene.xml" />
+		<scene file="pond/scene.xml" />
+		<scene file="juniorarena/scene.xml" />
+		<scene file="allstarsarena/scene.xml" />
+		<scene file="store/scene.xml" />
+	</scenes>
+</config>

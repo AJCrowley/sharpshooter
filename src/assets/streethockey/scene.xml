@@ -1,0 +1,104 @@
+<scene title="Street Hockey" backdrop="background.png" minPower="0.4" maxPower="1" angleRange="55" numShots="6">
+	<hitBoxes>
+		<hitBox solid="true">
+			<vertex x="0" y="270" />
+			<vertex x="0" y="300" />
+			<vertex x="210" y="205" />
+			<vertex x="210" y="175" />
+			<behaviours>
+				<behaviour>
+					<puck modifier="percent" x="-100" y="10" />
+				</behaviour>
+			</behaviours>
+		</hitBox>
+		<hitBox solid="true">
+			<vertex x="263" y="187" />
+			<vertex x="263" y="155" />
+			<vertex x="502" y="155" />
+			<vertex x="492" y="187" />
+			<behaviours>
+				<behaviour>
+					<puck modifier="percent" x="100" y="-100" />
+				</behaviour>
+			</behaviours>
+		</hitBox>
+		<hitBox solid="true">
+			<vertex x="760" y="270" />
+			<vertex x="760" y="300" />
+			<vertex x="513" y="197" />
+			<vertex x="520" y="174" />
+			<behaviours>
+				<behaviour>
+					<puck modifier="percent" x="-100" y="10" />
+				</behaviour>
+			</behaviours>
+		</hitBox>
+	</hitBoxes>
+	<instructions background="instructions.png" x="110" y="129">
+		<images>
+			<image id="playButton">instructions_play.png</image>
+			<image id="playButtonDown">instructions_play_down.png</image>
+			<image id="content">streethockey/instructions.png</image>
+		</images>
+		<headerText width="509" height="37" x="15" y="14" fontSize="16" colour="ffffff" bold="false">
+			<![CDATA[LEVEL 2: THE STREET]]>
+		</headerText>
+		<bodyText width="509" height="169" x="15" y="52" fontSize="12" colour="ffffff" bold="false">
+			<![CDATA[]]>
+		</bodyText>
+		<content image="content" x="0" y="0" />
+		<button width="155" height="39" x="195" y="219" image="playButton" downState="playButtonDown" />
+	</instructions>
+	<scoreScreen>
+		<images>
+			<image id="bronze">medal_b.png</image>
+			<image id="bronzeOff">medal_b_off.png</image>
+			<image id="silver">medal_s.png</image>
+			<image id="silverOff">medal_s_off.png</image>
+			<image id="gold">medal_g.png</image>
+			<image id="goldOff">medal_g_off.png</image>
+			<image id="target">streethockey/badge_target.png</image>
+			<image id="targetOff">streethockey/badge_target_off.png</image>
+			<image id="hydrant">streethockey/badge_hydrant.png</image>
+			<image id="hydrantOff">streethockey/badge_hydrant_off.png</image>
+		</images>
+		<medals>
+			<medal id="bronze" points="1300" image="bronze" imageoff="bronzeOff" x="439" y="147" />
+			<medal id="silver" points="1400" image="silver" imageoff="silverOff" x="399" y="147" />
+			<medal id="gold" points="1600" image="gold" imageoff="goldOff" x="359" y="147" />
+		</medals>
+		<badges>
+			<badge id="all" image="target" imageoff="targetOff" x="394" y="211" />
+			<badge id="bonus" image="hydrant" imageoff="hydrantOff" x="434 " y="211" />		
+		</badges>
+	</scoreScreen>
+	<actors>
+		<actor id="car_window" file="car_window.xml" framerate="30" x="0" y="0" autoPerspective="false" scale="1" />
+		<actor id="garbage_can" file="garbage_can.xml" framerate="30" x="-60" y="110" autoPerspective="false" scale="1" />
+		<actor id="parking_sign" file="parking_sign.xml" framerate="30" x="0" y="0" autoPerspective="false" scale="1" />
+		<actor id="pothole" file="pothole.xml" framerate="30" x="-450" y="10" autoPerspective="false" scale="1" />
+		<actor id="manhole" file="manhole.xml" framerate="30" x="290" y="-60" autoPerspective="false" scale="1" />
+		<actor id="net" file="net.xml" framerate="20" x="0" y="20" autoPerspective="false" scale="1" />
+		<actor id="target_bottom_left" file="target_bottom_left.xml" framerate="30" x="0" y="30" autoPerspective="false" scale="1" />
+		<actor id="target_bottom_right" file="target_bottom_right.xml" framerate="30" x="0" y="30" autoPerspective="false" scale="1" />
+		<actor id="target_middle" file="target_middle.xml" framerate="30" x="0" y="30" autoPerspective="false" scale="1" />
+		<actor id="target_top_left" file="target_top_left.xml" framerate="30" x="0" y="30" autoPerspective="false" scale="1" />
+		<actor id="target_top_right" file="target_top_right.xml" framerate="30" x="0" y="30" autoPerspective="false" scale="1" />
+		<actor id="dog" file="dog.xml" framerate="30" x="0" y="0" autoPerspective="false" scale="1" />
+		<actor id="kid" file="kid.xml" framerate="30" x="0" y="0" autoPerspective="false" scale="1" />
+		<player file="../common/player_street.xml" framerate="30" shotsound="shot" shotdelay="650" x="70" y="30" autoPerspective="false" scale="1" />
+		<puck file="../common/ball.xml" framerate="0" x="375" y="544" autoPerspective="true" scale="1" />
+		<reticle file="../common/reticle.xml" powerMeter="../common/reticle_power.png" framerate="0" x="315" y="518" centerX="49" centerY="42" autoPerspective="false" scale="1" />
+	</actors>
+	<sounds>
+		<sound id="ambiance" file="ambiance.mp3" loop="true" vol="1" bal="0" play="true" />
+		<sound id="shot" file="../common/shot.mp3" loop="false" vol="1" bal="0" />
+		<sound id="target" file="../common/target.mp3" loop="false" vol="1" bal="0" />
+		<sound id="car" file="car.mp3" loop="false" vol="1" bal="-0.6" />
+		<sound id="dog" file="dog.mp3" loop="false" vol="1" bal="-0.6" />
+		<sound id="garbage" file="garbage.mp3" loop="false" vol="1" bal="0.8" />
+		<sound id="kid" file="kid.mp3" loop="false" vol="1" bal="0.7" />
+		<sound id="parking" file="parking.mp3" loop="false" vol="1" bal="0.5" />
+		<sound id="pothole" file="pothole.mp3" loop="false" vol="1" bal="-0.8" />
+	</sounds>
+</scene>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:1be1db3c16912eec175a161db486d3a7$ -->
+<TextureAtlas imagePath="boards.png">
+    <SubTexture name="stateIdle_009" x="2" y="2" width="760" height="224" frameX="0" frameY="-75" frameWidth="760" frameHeight="600"/>
+</TextureAtlas>

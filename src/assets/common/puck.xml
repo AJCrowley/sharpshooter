@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:72c929165785c63f5645e6ea71cfd8bc$ -->
+<TextureAtlas imagePath="../common/puck.png" friction="0.975" momentumFactor="20">
+    <SubTexture name="stateIdle" x="9" y="13" width="17" height="15"/>
+    <hitAreas>
+		<hitArea>
+			<vertex x="0" y="4" />
+			<vertex x="6" y="2" />
+			<vertex x="12" y="2" />
+			<vertex x="17" y="4" />
+			<vertex x="17" y="8" />
+			<vertex x="12" y="10" />
+			<vertex x="6" y="10" />
+			<vertex x="0" y="8" />
+		</hitArea>
+	</hitAreas>
+</TextureAtlas>

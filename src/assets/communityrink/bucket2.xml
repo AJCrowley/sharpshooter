@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:0da4253bbde602d27d39a7184c0cf464$ -->
+<TextureAtlas imagePath="bucket2.png">
+    <SubTexture name="Bucket hit0001" x="104" y="250" width="40" height="74" frameX="-529" frameY="-237" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="Bucket hit0002" x="104" y="250" width="40" height="74" frameX="-529" frameY="-237" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="Bucket hit0003" x="2" y="402" width="46" height="84" frameX="-531" frameY="-231" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="Bucket hit0004" x="2" y="402" width="46" height="84" frameX="-531" frameY="-231" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="Bucket hit0005" x="54" y="250" width="48" height="84" frameX="-532" frameY="-229" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="Bucket hit0006" x="54" y="250" width="48" height="84" frameX="-532" frameY="-229" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="Bucket hit0007" x="2" y="318" width="48" height="82" frameX="-535" frameY="-231" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="Bucket hit0008" x="2" y="318" width="48" height="82" frameX="-535" frameY="-231" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="Bucket hit0009" x="50" y="402" width="48" height="76" frameX="-545" frameY="-236" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="Bucket hit0010" x="50" y="402" width="48" height="76" frameX="-545" frameY="-236" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="Bucket hit0011" x="196" y="188" width="50" height="74" frameX="-551" frameY="-237" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="Bucket hit0012" x="196" y="188" width="50" height="74" frameX="-551" frameY="-237" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="Bucket hit0013" x="2" y="250" width="50" height="66" frameX="-555" frameY="-241" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="Bucket hit0014" x="2" y="250" width="50" height="66" frameX="-555" frameY="-241" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="Bucket hit0015" x="134" y="188" width="60" height="60" frameX="-558" frameY="-244" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="Bucket hit0016" x="134" y="188" width="60" height="60" frameX="-558" frameY="-244" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="Bucket hit0017" x="70" y="188" width="62" height="60" frameX="-559" frameY="-244" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="Bucket hit0018" x="70" y="188" width="62" height="60" frameX="-559" frameY="-244" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="Bucket hit0019" x="2" y="188" width="66" height="60" frameX="-559" frameY="-244" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="Bucket hit0020" x="2" y="188" width="66" height="60" frameX="-559" frameY="-244" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="Bucket hit0021" x="152" y="126" width="70" height="60" frameX="-559" frameY="-244" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="Bucket hit0022" x="152" y="126" width="70" height="60" frameX="-559" frameY="-244" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="Bucket hit0023" x="78" y="126" width="72" height="60" frameX="-559" frameY="-244" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="Bucket hit0024" x="78" y="126" width="72" height="60" frameX="-559" frameY="-244" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="Bucket hit0025" x="2" y="126" width="74" height="60" frameX="-560" frameY="-244" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="Bucket hit0026" x="2" y="126" width="74" height="60" frameX="-560" frameY="-244" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="Bucket hit0027" x="162" y="64" width="76" height="60" frameX="-559" frameY="-244" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="Bucket hit0028" x="162" y="64" width="76" height="60" frameX="-559" frameY="-244" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="Bucket hit0029" x="82" y="64" width="78" height="60" frameX="-559" frameY="-244" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="Bucket hit0030" x="82" y="64" width="78" height="60" frameX="-559" frameY="-244" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="Bucket hit0031" x="2" y="64" width="78" height="60" frameX="-560" frameY="-244" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="Bucket hit0032" x="2" y="64" width="78" height="60" frameX="-560" frameY="-244" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="Bucket hit0033" x="166" y="2" width="80" height="60" frameX="-559" frameY="-244" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="Bucket hit0034" x="166" y="2" width="80" height="60" frameX="-559" frameY="-244" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="Bucket hit0035" x="84" y="2" width="80" height="60" frameX="-560" frameY="-244" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="Bucket hit0036" x="84" y="2" width="80" height="60" frameX="-560" frameY="-244" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="Bucket hit0037" x="2" y="2" width="80" height="60" frameX="-560" frameY="-244" frameWidth="760" frameHeight="600"/>
+</TextureAtlas>

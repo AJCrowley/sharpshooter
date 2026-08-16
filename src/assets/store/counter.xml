@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:68d23d19d2341ec952f6acfbf4936ed8$ -->
+<TextureAtlas imagePath="counter.png">
+	<hitAreas>
+		<hitArea>
+			<vertex x="309" y="221" />
+			<vertex x="341" y="221" />
+			<vertex x="341" y="200" />
+			<vertex x="309" y="200" />
+			<behaviours>
+				<behaviour>
+					<puck modifier="percent" x="100" y="-50" />
+				</behaviour>
+			</behaviours>
+		</hitArea>
+		<hitArea>
+			<vertex x="417" y="221" />
+			<vertex x="475" y="221" />
+			<vertex x="475" y="200" />
+			<vertex x="417" y="200" />
+			<behaviours>
+				<behaviour>
+					<puck modifier="percent" x="100" y="-50" />
+				</behaviour>
+			</behaviours>
+		</hitArea>
+		<hitArea>
+			<vertex x="575" y="162" />
+			<vertex x="475" y="162" />
+			<vertex x="475" y="183" />
+			<vertex x="575" y="183" />
+			<behaviours>
+				<behaviour>
+					<conditions>
+						<power max="10" />
+					</conditions>
+					<puck modifier="percent" x="100" y="-50" />
+				</behaviour>
+			</behaviours>
+		</hitArea>
+		<hitArea>
+			<vertex x="341" y="221" />
+			<vertex x="417" y="221" />
+			<vertex x="417" y="200" />
+			<vertex x="341" y="200" />
+			<behaviours>
+				<behaviour>
+					<conditions>
+						<power max="10" />
+					</conditions>
+					<puck modifier="percent" x="100" y="-50" />
+				</behaviour>
+			</behaviours>
+		</hitArea>
+		<hitArea>
+			<vertex x="309" y ="221" />
+			<vertex x="309" y ="183" />
+			<vertex x="331" y ="183" />
+			<vertex x="331" y ="221" />
+			<behaviours>
+				<behaviour>
+					<puck modifier="percent" x="-50" y="0" />
+				</behaviour>
+			</behaviours>
+		</hitArea>
+	</hitAreas>
+    <SubTexture name="stateIdle_0001" x="2" y="2" width="176" height="158" frameX="-304" frameY="-63" frameWidth="760" frameHeight="600"/>
+</TextureAtlas>

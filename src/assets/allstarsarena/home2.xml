@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:3cf3ea30f68672e1322313816cd2c20c$ -->
+<TextureAtlas imagePath="home2.png">
+	<hitAreas>
+		<hitArea>
+			<vertex x="644" y="378" />
+			<vertex x="644" y="398" />
+			<vertex x="600" y="398" />
+			<vertex x="600" y="378" />
+			<behaviours>
+				<behaviour>
+					<badges>
+						<badge>bonus</badge>
+					</badges>
+					<points>200</points>
+					<puck modifier="absolute" x="7.5" y="6" xPos="490" yPos="240" posTime="0.1" easing="easeInOut" delay="200" />
+					<animations loop="true">
+						<animation>stateAction</animation>
+						<animation>stateIdle</animation>
+					</animations>
+					<sound>npcshot</sound>
+				</behaviour>
+			</behaviours>
+		</hitArea>
+	</hitAreas>
+    <SubTexture name="stateIdle_0001" x="428" y="592" width="138" height="196" frameX="-610" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0002" x="428" y="592" width="138" height="196" frameX="-610" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0003" x="428" y="592" width="138" height="196" frameX="-610" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0004" x="428" y="592" width="138" height="196" frameX="-610" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0005" x="854" y="590" width="138" height="196" frameX="-610" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0006" x="854" y="590" width="138" height="196" frameX="-610" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0007" x="714" y="590" width="138" height="196" frameX="-610" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0008" x="714" y="590" width="138" height="196" frameX="-610" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0009" x="2" y="978" width="138" height="194" frameX="-610" frameY="-269" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0010" x="2" y="978" width="138" height="194" frameX="-610" frameY="-269" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0011" x="142" y="786" width="138" height="194" frameX="-610" frameY="-269" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0012" x="142" y="786" width="138" height="194" frameX="-610" frameY="-269" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0013" x="568" y="786" width="138" height="192" frameX="-610" frameY="-271" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0014" x="568" y="786" width="138" height="192" frameX="-610" frameY="-271" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0015" x="142" y="1174" width="138" height="190" frameX="-610" frameY="-272" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0016" x="142" y="1174" width="138" height="190" frameX="-610" frameY="-272" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0017" x="2" y="1174" width="138" height="190" frameX="-610" frameY="-272" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0018" x="2" y="1174" width="138" height="190" frameX="-610" frameY="-272" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0019" x="282" y="1172" width="138" height="190" frameX="-610" frameY="-272" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0020" x="720" y="200" width="140" height="190" frameX="-608" frameY="-272" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0021" x="578" y="200" width="140" height="192" frameX="-608" frameY="-271" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0022" x="2" y="390" width="142" height="194" frameX="-607" frameY="-269" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0023" x="300" y="2" width="144" height="194" frameX="-606" frameY="-269" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0024" x="2" y="586" width="140" height="192" frameX="-609" frameY="-271" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0025" x="422" y="982" width="138" height="190" frameX="-610" frameY="-273" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0026" x="564" y="980" width="138" height="190" frameX="-610" frameY="-273" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0027" x="146" y="394" width="140" height="192" frameX="-608" frameY="-271" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0028" x="148" y="198" width="142" height="194" frameX="-607" frameY="-269" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0029" x="2" y="194" width="144" height="194" frameX="-606" frameY="-269" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0030" x="292" y="392" width="140" height="192" frameX="-609" frameY="-271" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0031" x="848" y="788" width="138" height="190" frameX="-610" frameY="-273" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0032" x="708" y="788" width="138" height="190" frameX="-610" frameY="-273" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0033" x="436" y="200" width="140" height="192" frameX="-609" frameY="-271" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0034" x="292" y="198" width="142" height="192" frameX="-607" frameY="-271" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0035" x="154" y="2" width="144" height="194" frameX="-606" frameY="-269" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0036" x="874" y="198" width="140" height="192" frameX="-609" frameY="-271" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0037" x="142" y="982" width="138" height="190" frameX="-610" frameY="-273" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0038" x="282" y="980" width="138" height="190" frameX="-609" frameY="-273" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0039" x="562" y="1172" width="138" height="188" frameX="-609" frameY="-274" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0040" x="704" y="1170" width="138" height="188" frameX="-609" frameY="-274" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0041" x="844" y="980" width="138" height="188" frameX="-608" frameY="-274" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0042" x="704" y="980" width="138" height="188" frameX="-607" frameY="-274" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0043" x="702" y="1360" width="138" height="186" frameX="-606" frameY="-275" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0044" x="844" y="1358" width="138" height="186" frameX="-606" frameY="-275" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0045" x="844" y="1170" width="138" height="186" frameX="-606" frameY="-275" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0046" x="844" y="1170" width="138" height="186" frameX="-606" frameY="-275" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0047" x="422" y="1174" width="138" height="186" frameX="-606" frameY="-275" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0048" x="422" y="1174" width="138" height="186" frameX="-606" frameY="-275" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0049" x="424" y="790" width="138" height="190" frameX="-608" frameY="-272" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0050" x="424" y="790" width="138" height="190" frameX="-608" frameY="-272" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0051" x="284" y="784" width="138" height="194" frameX="-609" frameY="-269" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0052" x="284" y="784" width="138" height="194" frameX="-609" frameY="-269" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0053" x="574" y="394" width="138" height="196" frameX="-610" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0054" x="574" y="394" width="138" height="196" frameX="-610" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0055" x="2" y="780" width="138" height="196" frameX="-610" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0056" x="2" y="780" width="138" height="196" frameX="-610" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0057" x="144" y="588" width="138" height="196" frameX="-610" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0058" x="144" y="588" width="138" height="196" frameX="-610" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0059" x="288" y="586" width="138" height="196" frameX="-610" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0060" x="288" y="586" width="138" height="196" frameX="-610" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0061" x="434" y="394" width="138" height="196" frameX="-610" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0062" x="434" y="394" width="138" height="196" frameX="-610" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0063" x="428" y="592" width="138" height="196" frameX="-610" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0064" x="428" y="592" width="138" height="196" frameX="-610" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0065" x="428" y="592" width="138" height="196" frameX="-610" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateIdle_0066" x="428" y="592" width="138" height="196" frameX="-610" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0001" x="142" y="786" width="138" height="194" frameX="-610" frameY="-269" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0002" x="142" y="786" width="138" height="194" frameX="-610" frameY="-269" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0003" x="568" y="592" width="138" height="192" frameX="-608" frameY="-271" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0004" x="568" y="592" width="138" height="192" frameX="-608" frameY="-271" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0005" x="2" y="2" width="150" height="190" frameX="-573" frameY="-274" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0006" x="2" y="2" width="150" height="190" frameX="-573" frameY="-274" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0007" x="874" y="2" width="140" height="194" frameX="-560" frameY="-270" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0008" x="874" y="2" width="140" height="194" frameX="-560" frameY="-270" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0009" x="416" y="1744" width="136" height="196" frameX="-557" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0010" x="416" y="1744" width="136" height="196" frameX="-557" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0011" x="278" y="1744" width="136" height="196" frameX="-557" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0012" x="278" y="1744" width="136" height="196" frameX="-557" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0013" x="140" y="1744" width="136" height="196" frameX="-558" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0014" x="140" y="1744" width="136" height="196" frameX="-558" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0015" x="2" y="1744" width="136" height="196" frameX="-558" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0016" x="2" y="1744" width="136" height="196" frameX="-558" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0017" x="842" y="1546" width="136" height="196" frameX="-559" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0018" x="842" y="1546" width="136" height="196" frameX="-559" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0019" x="842" y="1546" width="136" height="196" frameX="-559" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0020" x="842" y="1546" width="136" height="196" frameX="-559" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0021" x="842" y="1546" width="136" height="196" frameX="-559" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0022" x="842" y="1546" width="136" height="196" frameX="-559" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0023" x="842" y="1546" width="136" height="196" frameX="-559" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0024" x="842" y="1546" width="136" height="196" frameX="-559" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0025" x="732" y="2" width="140" height="196" frameX="-564" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0026" x="732" y="2" width="140" height="196" frameX="-564" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0027" x="446" y="2" width="142" height="196" frameX="-590" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0028" x="446" y="2" width="142" height="196" frameX="-590" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0029" x="590" y="2" width="140" height="196" frameX="-603" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0030" x="590" y="2" width="140" height="196" frameX="-603" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0031" x="860" y="392" width="138" height="196" frameX="-609" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0032" x="860" y="392" width="138" height="196" frameX="-609" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0033" x="288" y="586" width="138" height="196" frameX="-610" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0034" x="288" y="586" width="138" height="196" frameX="-610" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0035" x="288" y="586" width="138" height="196" frameX="-610" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0036" x="288" y="586" width="138" height="196" frameX="-610" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0037" x="288" y="586" width="138" height="196" frameX="-610" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0038" x="288" y="586" width="138" height="196" frameX="-610" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0039" x="288" y="586" width="138" height="196" frameX="-610" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0040" x="288" y="586" width="138" height="196" frameX="-610" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0041" x="288" y="586" width="138" height="196" frameX="-610" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0042" x="288" y="586" width="138" height="196" frameX="-610" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0043" x="288" y="586" width="138" height="196" frameX="-610" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0044" x="288" y="586" width="138" height="196" frameX="-610" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0045" x="720" y="392" width="138" height="196" frameX="-610" frameY="-267" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0046" x="720" y="392" width="138" height="196" frameX="-610" frameY="-267" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0047" x="288" y="586" width="138" height="196" frameX="-610" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0048" x="288" y="586" width="138" height="196" frameX="-610" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0049" x="288" y="586" width="138" height="196" frameX="-610" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0050" x="288" y="586" width="138" height="196" frameX="-610" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0051" x="288" y="586" width="138" height="196" frameX="-610" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0052" x="288" y="586" width="138" height="196" frameX="-610" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0053" x="288" y="586" width="138" height="196" frameX="-610" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0054" x="288" y="586" width="138" height="196" frameX="-610" frameY="-268" frameWidth="760" frameHeight="600"/>
+    <SubTexture name="stateAction_0055" x="288" y="586" width="138" height="196" frameX="-610" frameY="-268" frameWidth="760" frameHeight="600"/>
+</TextureAtlas>

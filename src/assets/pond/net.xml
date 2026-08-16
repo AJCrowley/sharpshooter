@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:b767ff47ef38cbd0e46ce64faf5d5386$ -->
+<TextureAtlas imagePath="net.png">
+	<hitAreas>
+		<hitArea solid="false">
+			<vertex x="313" y="197" />
+			<vertex x="447" y="197" />
+			<vertex x="451" y="218" />
+			<vertex x="443" y="218" />
+			<vertex x="427" y="205" />
+			<vertex x="331" y="205" />
+			<vertex x="317" y="218" />
+			<vertex x="308" y="218" />
+			<behaviours>
+				<behaviour>
+					<conditions>
+						<angle min="-179" max="-91" />
+					</conditions>
+					<puck modifier="percent" y="-85" />
+				</behaviour>
+				<behaviour>
+					<conditions>
+						<angle min="91" max="179" />
+					</conditions>
+					<puck modifier="percent" y="-85" />
+				</behaviour>
+				<behaviour>
+					<conditions>
+						<power max="10" />
+						<angle min="-90" max="90" />
+					</conditions>
+					<puck modifier="percent" x="25" y="-25" />
+				</behaviour>
+			</behaviours>
+		</hitArea>
+	</hitAreas>
+    <SubTexture name="stateIdle_01" x="2" y="2" width="144" height="120" frameX="-307" frameY="-136" frameWidth="760" frameHeight="600"/>
+</TextureAtlas>
